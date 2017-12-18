@@ -93,4 +93,5 @@ sift_down( double * elements, unsigned int size, unsigned int current_element_in
         swap( elements[ current_element_index ], elements[ largest_element_index ] );
         sift_down( elements, size, largest_element_index );
     }
-}```
+}
+```
